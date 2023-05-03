@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body{
+    background-color: skyblue;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.first{
+    background-color: black;
+    color: white;
+}
+.last{
+    color: red;
+}
+
+li:first-child, li:last-child{
+    background-color: white;
+}
+
+li:nth-child(2n){
+    background-color: slategray;
+}
+
+li:nth-child(3n){
+    background-color: pink;
+}
